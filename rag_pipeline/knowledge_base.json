@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Transformers Architecture",
+    "text": "The Transformer architecture was introduced in the 2017 paper 'Attention Is All You Need' by Vaswani et al. It relies entirely on self-attention mechanisms, dispensing with recurrence and convolutions. The architecture consists of an encoder and a decoder, each composed of stacked layers of multi-head self-attention and feed-forward networks."
+  },
+  {
+    "id": 2,
+    "title": "BERT Overview",
+    "text": "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained language model developed by Google in 2018. Unlike previous models that read text left-to-right, BERT reads in both directions simultaneously. It is trained using masked language modeling and next sentence prediction objectives."
+  },
+  {
+    "id": 3,
+    "title": "GPT Models",
+    "text": "GPT (Generative Pre-trained Transformer) models are autoregressive language models developed by OpenAI. Starting with GPT-1 in 2018, the series scaled up to GPT-2, GPT-3, and GPT-4. These models are trained to predict the next token in a sequence and can generate coherent, contextually relevant text."
+  },
+  {
+    "id": 4,
+    "title": "Fine-Tuning",
+    "text": "Fine-tuning is the process of taking a pre-trained language model and training it further on a smaller, task-specific dataset. This technique allows models to adapt to specialized domains such as medical text, legal documents, or customer support conversations while retaining the general language understanding from pre-training."
+  },
+  {
+    "id": 5,
+    "title": "Retrieval-Augmented Generation",
+    "text": "Retrieval-Augmented Generation (RAG) combines a retrieval component with a generative model. During inference, relevant documents are retrieved from a knowledge base and provided as context to the generator. This approach reduces hallucination, allows grounding in external knowledge, and enables the model to answer questions about information not seen during training."
+  },
+  {
+    "id": 6,
+    "title": "Tokenization",
+    "text": "Tokenization is the process of splitting text into smaller units called tokens. Modern language models typically use subword tokenization methods such as Byte-Pair Encoding (BPE) or WordPiece. These methods balance vocabulary size with the ability to represent rare or unseen words by breaking them into common subword units."
+  }
+]
